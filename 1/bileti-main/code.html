@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Резервирование билетов в кинотеатр</h1>
+        <div id="date-selector">
+            <label for="date">Выберите дату:</label>
+            <select id="date"></select>
+        </div>
+        <div id="session-selector">
+            <label for="session">Выберите сеанс:</label>
+            <select id="session"></select>
+        </div>
+        <div id="seating-chart">
+            <h2>Схема мест</h2>
+            <div id="seats"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

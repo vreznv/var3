@@ -1,0 +1,15 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "https://docs.google.com/document/d/1YWJGDKB1pLrox6Y4CNm15Nuu_EVcAHIciYUHWYrDNDY/edit",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+#seating-chart {
+    margin-top: 20px;
+}
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-color: #6c757d;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.seat.booked {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+.seat.selected {
+    background-color: #28a745;
+}
